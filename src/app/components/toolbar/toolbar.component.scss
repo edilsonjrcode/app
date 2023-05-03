@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 5rem;
+    align-items: center;
+
+    nav{
+        display: flex;
+
+        img{
+            width: 5rem;
+        }
+    
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            padding: 29px 15px;
+        }
+    }
+}
